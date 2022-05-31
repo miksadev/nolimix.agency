@@ -13,12 +13,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 200px;
 }
 .logo {
   position: absolute;
   top: 30px;
-  /* left: calc(50% - 225.75px); */
-  /* width: 100%; */
   max-width: 100%;
 }
 
@@ -30,7 +29,6 @@
 .text {
   color: white;
   font-size: 1.5em;
-  /* margin-top: 40px; */
 }
 .link:hover {
   text-decoration: underline;
@@ -76,11 +74,6 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
