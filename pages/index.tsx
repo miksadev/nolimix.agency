@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import img from "../public/nolimixlogo.png";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
           content="Crafting premium digital solutions! - Mobile and Web Software development | Product Design | Seo services"
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content={img.src} />
       </Head>
 
       <main className={styles.main}>
