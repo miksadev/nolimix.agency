@@ -39,7 +39,7 @@ const Home: NextPage = () => {
         </a>
         <p className={styles.text}>or</p>
         <a
-          href="https://www.linkedin.com/in/mihajlodev/"
+          href="https://www.linkedin.com/company/nolimixagency"
           target="_blank"
           rel="noreferrer"
         >
@@ -49,11 +49,11 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://www.linkedin.com/in/mihajlodev/"
+          href="https://www.linkedin.com/company/nolimixagency"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by Nolimix Agency
+          Powered by Nolimix Agency - Website under construction
         </a>
       </footer>
     </div>
